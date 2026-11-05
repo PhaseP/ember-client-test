@@ -18,6 +18,7 @@ immersive-aircraft
 matcha-flavoured
 travelersbackpack
 geckolib
+pf-emi
 
 # RPG Series
 jewelry
