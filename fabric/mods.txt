@@ -5,6 +5,7 @@
 # For your own .jar files, use the mods/ folder instead.
 
 fabric-api
+
 #my tries
 lootr
 naturalist
@@ -13,14 +14,38 @@ moogs-voyager-structures
 promenade
 unchy-fpa
 serene-seasons
-farmers-delight-refabricated
 immersive-aircraft
+matcha-flavoured
+travelersbackpack
+geckolib
 
+# RPG Series
+jewelry
+paladins-and-priests
+archers
+gazebos
+rogues-and-warriors
+arsenal-rpg-series
+relics-rpg
+village-taverns
+armory-rpg-series
+skill-tree
+spell-power
+wizards
+runes
+ranged-weapon-api
+structure-pool-api
+projectile-damage-attribute
+critical-strike
+armor-model-api
 
-#Needs Bc Lib
-bclib
-betterend
-betternether
+#Alexs Mobs and Cooking
+farmers-delight-refabricated
+alexs-mobs-continued
+alexs-mobs-continued-delight
+alexs-caves-continued
+alexs-caves-continued-delight
+attribute-icons-rpg-series
 
 
 # HUD and info
