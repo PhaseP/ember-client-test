@@ -25,6 +25,17 @@ if [ "${EMBER_OBFUSCATE:-0}" != "1" ]; then
 fi
 npm ci --ignore-scripts --no-audit --no-fund
 free -m
+# The generated game jar can exceed ZIP's 65,535-entry limit once the
+# Fabric layer adds enough mods. Gradle needs ZIP64 enabled before :game:jar.
+GAME_BUILD="$WS/game/build.gradle.kts"
+if [ -f "$GAME_BUILD" ] && ! grep -q 'isZip64 = true' "$GAME_BUILD"; then
+  cat >> "$GAME_BUILD" <<'EOF'
+
+tasks.withType<org.gradle.jvm.tasks.Jar>().configureEach {
+  isZip64 = true
+}
+EOF
+fi
 # If the compiler stalls, record what it is doing (thread dumps go to the ci-logs
 # branch) and stop after 150 minutes instead of running into the job limit.
 (
