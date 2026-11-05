@@ -19,6 +19,7 @@ matcha-flavoured
 travelersbackpack
 geckolib
 pf-emi
+glitchcore
 
 #Disabled RPG mods
 #jewelry
@@ -40,13 +41,14 @@ pf-emi
 #critical-strike
 #armor-model-api
 
+# Memory test(removing these temporarily)
 #Alexs Mobs and Cooking
-farmers-delight-refabricated
-alexs-mobs-continued
-alexs-mobs-continued-delight
-alexs-caves-continued
-alexs-caves-continued-delight
-attribute-icons-rpg-series
+#farmers-delight-refabricated
+#alexs-mobs-continued
+#alexs-mobs-continued-delight
+#alexs-caves-continued
+#alexs-caves-continued-delight
+#attribute-icons-rpg-series
 
 
 # HUD and info
@@ -93,9 +95,9 @@ nicer-skies
 # dynamic-fps  (off: its settings file and battery library need desktop Java)
 no-chat-reports
 # xaeros-minimap  (off: too big for the browser compiler; it ran out of memory)
-waveycapes
+# waveycapes (huh)
 fallingleaves
-eating-animation
+# eating-animation (huh)
 smooth-swapping
 auto-reconnect
 
