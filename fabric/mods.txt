@@ -5,7 +5,7 @@
 # For your own .jar files, use the mods/ folder instead.
 
 fabric-api
-#mytries
+#my tries
 lootr
 naturalist
 rechiseled
@@ -14,9 +14,14 @@ promenade
 unchy-fpa
 serene-seasons
 farmers-delight-refabricated
+immersive-aircraft
+
+
+#Needs Bc Lib
+bclib
 betterend
 betternether
-immersive-aircraft
+
 
 # HUD and info
 appleskin
