@@ -5,6 +5,18 @@
 # For your own .jar files, use the mods/ folder instead.
 
 fabric-api
+#mytries
+lootr
+naturalist
+rechiseled
+moogs-voyager-structures
+promenade
+unchy-fpa
+serene-seasons
+farmers-delight-refabricated
+betterend
+betternether
+immersive-aircraft
 
 # HUD and info
 appleskin
