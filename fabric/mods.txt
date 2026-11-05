@@ -20,25 +20,25 @@ travelersbackpack
 geckolib
 pf-emi
 
-# RPG Series
-jewelry
-paladins-and-priests
-archers
-gazebos
-rogues-and-warriors
-arsenal-rpg-series
-relics-rpg
-village-taverns
-armory-rpg-series
-skill-tree
-spell-power
-wizards
-runes
-ranged-weapon-api
-structure-pool-api
-projectile-damage-attribute
-critical-strike
-armor-model-api
+#Disabled RPG mods
+#jewelry
+#paladins-and-priests
+#archers
+#gazebos
+#rogues-and-warriors
+#arsenal-rpg-series
+#relics-rpg
+#village-taverns
+#armory-rpg-series
+#skill-tree
+#spell-power
+#wizards
+#runes
+#ranged-weapon-api
+#structure-pool-api
+#projectile-damage-attribute
+#critical-strike
+#armor-model-api
 
 #Alexs Mobs and Cooking
 farmers-delight-refabricated
