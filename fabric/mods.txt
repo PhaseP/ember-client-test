@@ -8,18 +8,18 @@ fabric-api
 
 #my tries
 lootr
-naturalist
+#naturalist
 rechiseled
-moogs-voyager-structures
-promenade
-unchy-fpa
-serene-seasons
-immersive-aircraft
-matcha-flavoured
-travelersbackpack
-geckolib
-pf-emi
-glitchcore
+#moogs-voyager-structures
+#promenade
+#punchy-fpa
+#serene-seasons
+#immersive-aircraft
+#matcha-flavoured
+#travelersbackpack
+#geckolib
+#pf-emi
+#glitchcore
 
 #Disabled RPG mods
 #jewelry
