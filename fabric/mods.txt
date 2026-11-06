@@ -7,9 +7,9 @@
 fabric-api
 
 #my tries
-lootr
+#lootr
 #naturalist
-rechiseled
+#rechiseled
 #moogs-voyager-structures
 #promenade
 #punchy-fpa
@@ -53,7 +53,7 @@ rechiseled
 
 # HUD and info
 appleskin
-betterf3
+#betterf3 (Meh)
 # jade  (off for now: uses Java features the browser lacks at startup)
 # better-ping-display-fabric  (no 26.2 version yet)
 
@@ -72,12 +72,12 @@ visuality
 dark-loading-screen
 # not-enough-animations  (off for now: uses Java features the browser lacks at startup)
 # 3dskinlayers  (off for now: uses Java features the browser lacks at startup)
-boat-item-view
+# boat-item-view  (Meh)
 
 # PvP and HUD
 armor-hud
 # status-effect-bars  (off: its mixin leaves LivingEntity.forceAddEffect invalid for the browser compiler)
-toggle-sprint-display
+# toggle-sprint-display  (Meh)
 held-item-info
 durability-tooltip
 cleancut
@@ -85,22 +85,22 @@ cleancut
 # enchantment-descriptions  (off: its Prickle settings system reads field annotations, which the browser lacks)
 
 # Zoom, brightness and sky
-logical-zoom
+#logical-zoom  (Meh)
 gamma-utils
-nicer-skies
+#nicer-skies (Meh)
 
 # sodium  (off: it stops Fabric's own renderer from starting, which crashes on servers; its own start fails in the browser anyway)
 
 # More client mods (added Oct 30)
 # dynamic-fps  (off: its settings file and battery library need desktop Java)
-no-chat-reports
+#no-chat-reports  (Meh)
 # xaeros-minimap  (off: too big for the browser compiler; it ran out of memory)
 # waveycapes (huh)
 fallingleaves
 # eating-animation (huh)
 smooth-swapping
-auto-reconnect
+#auto-reconnect  (Meh)
 
 # Crystal and anchor PvP (Hero's Anchor Optimizer has no 26.2 build; Anchor Optimizer does the same job)
-marlow-crystal-optimizer
-anchoroptimizer
+#marlow-crystal-optimizer  (Meh)
+#anchoroptimizer (Meh)
