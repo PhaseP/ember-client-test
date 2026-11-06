@@ -1,0 +1,13 @@
+81:  obfuscated: false,
+450:if (wasm.length > 400_000_000 && !diagnosticBuild) {
+
+added 1 package in 617ms
+               total        used        free      shared  buff/cache   available
+Mem:           15983        1187       11713          50        3477       14795
+Swap:           3071           0        3071
+reusing cached server and mesh workers
+
+> build:single
+> node wasm-toolchain/build-single-html.js --output /home/runner/work/ember-client-test/ember-client-test/out/ember-client-26.2.html --reuse-server --reuse-mesh
+
+[single-html] ERROR: EAGLER_BUILD_CAP_MIB must be an integer from 1024 through 13312
