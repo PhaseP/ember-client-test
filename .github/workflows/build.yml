@@ -88,7 +88,7 @@ jobs:
           EAGLER_LINK_HEAP_MIB: "12288"
           EAGLER_SERVER_LINK_CAP_MIB: "14336"
           EAGLER_SERVER_LINK_HEAP_MIB: "12288"
-          EAGLER_BUILD_CAP_MIB: "14336"
+          EAGLER_BUILD_CAP_MIB: "13312"
           EMBER_ALLOW_MISSING: "1"
         run: mkdir -p "$RUNNER_TEMP/logs" && bash scripts/build-html.sh 2>&1 | tee "$RUNNER_TEMP/logs/build-html.log"
 
